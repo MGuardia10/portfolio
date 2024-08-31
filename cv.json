@@ -1,0 +1,129 @@
+
+{
+	"home": {
+	  "url": "",
+	  "fullname": "Miguel Guardia",
+	  "logo": "/logo-white.svg",
+	  "cv": "https://mguardia10.github.io/cv/",
+	  "image": "https://avatars.githubusercontent.com/u/38181470?v=4",
+	  "intro": "hey, Miguel here!",
+	  "summary": "",
+	  "projects": [
+		{
+		  "name": "Project 1",
+		  "image": "https://via.placeholder.com/150",
+		  "description": "Description…",
+		  "url": "https://project.com"
+		},
+		{
+		  "name": "Project 2",
+		  "image": "https://via.placeholder.com/150",
+		  "description": "Description…",
+		  "url": "https://project.com"
+		},
+		{
+		  "name": "Project 3",
+		  "image": "https://via.placeholder.com/150",
+		  "description": "Description…",
+		  "url": "https://project.com"
+		},
+		{
+			"name": "Project 4",
+			"image": "https://via.placeholder.com/150",
+			"description": "Description…",
+			"url": "https://project.com"
+		  }
+	  ]
+	},
+	"profiles": [
+	  {
+		"network": "Email",
+		"url": "mailto:mike.guardia0309@gmail.com"
+	  },
+	  {
+		"network": "LinkedIn",
+		"url": "https://www.linkedin.com/in/miguel-guardia-sanchez/"
+	  },
+	  {
+		"network": "GitHub",
+		"url": "https://github.com/MGuardia10"
+	  },
+	  {
+		"network": "42 Intra",
+		"url": "https://profile.intra.42.fr/users/mguardia"
+	  }
+	],
+	"about": {
+	  "photos": [
+		{
+			"image": "https://via.placeholder.com/150",
+			"caption": "Caption…",
+			"date": "2014-07-31"
+		},
+		{
+			"image": "https://via.placeholder.com/150",
+			"caption": "Caption…",
+			"date": "2014-07-31"
+		},
+		{
+			"image": "https://via.placeholder.com/150",
+			"caption": "Caption…",
+			"date": "2014-07-31"
+		},
+		{
+			"image": "https://via.placeholder.com/150",
+			"caption": "Caption…",
+			"date": "2014-07-31"
+		}
+	  ],
+	  "bio": "",
+	  "label": "Software Engineer",
+	  "picture": "https://avatars.githubusercontent.com/u/38181470?v=4",
+	  "phone": "",
+	  "work_intro": "",
+	  "work": [
+		{
+		  "position": "",
+		  "company": "",
+		  "logo": "",
+		  "url": "",
+		  "startDate": "",
+		  "endDate": null
+		}
+	  ]
+	},
+	"education_intro": "I have studied at the following institutions.",
+	"education": [
+		{
+			"area": "Software Engineering",
+			"institution": "42 Madrid - Telefónica",
+			"logo": "",
+			"url": "https://42.fr/en/homepage/",
+			"startDate": "2023",
+			"endDate": "2025"
+		},
+		{
+			"area": "Cloud Architect Bootcamp",
+			"institution": "Techtitute: Technological University",
+			"logo": "",
+			"url": "https://www.techtitute.com/",
+			"startDate": "2022",
+			"endDate": "2023"
+		},
+		{
+			"area": "Master Full Stack Development",
+			"institution": "Techtitute: Technological University",
+			"logo": "",
+			"url": "https://www.techtitute.com/",
+			"startDate": "2022",
+			"endDate": "2023"
+	  }
+	],
+	"certificates": [{
+	  "name": "Certificate",
+	  "date": "2021-11-07",
+	  "issuer": "Company",
+	  "url": "https://certificate.com"
+	}]
+  }
+  
