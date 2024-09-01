@@ -2,6 +2,7 @@
 import { Suspense, lazy } from 'react'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import { Spiner } from '../ui/Spiner'
+import { OutletRouter } from './OutletRouter'
 
 const HomePage = lazy(() => import('../home/HomePage'))
 const AboutPage = lazy(() => import('../about/AboutPage'))
@@ -10,7 +11,7 @@ const LinksPage = lazy(() => import('../links/LinksPage'))
 export const router = createBrowserRouter([
 	{
 	  path: '/',
-	//   element: <HomeRoutes />,
+	  element: <OutletRouter />,
 	  children: [
 		{
 		  path: '/',

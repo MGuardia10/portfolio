@@ -1,38 +1,49 @@
-
 {
 	"home": {
-	  "url": "",
 	  "fullname": "Miguel Guardia",
 	  "logo": "/logo-white.svg",
-	  "cv": "https://mguardia10.github.io/cv/",
-	  "image": "https://avatars.githubusercontent.com/u/38181470?v=4",
+	  "fast_links": [
+		{
+		  "name": "LinkedIn",
+		  "url": "https://www.linkedin.com/in/miguel-guardia-sanchez/"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/MGuardia10"
+		},
+		{
+			"name": "CV",
+			"url": "/cv.pdf"
+		}
+	  ],
+	  "image": "/links/mguardia.webp",
 	  "intro": "hey, Miguel here!",
-	  "summary": "",
+	  "summary": "I am a software engineer in constant learning and with a solid passion for technology and programming. I consider myself a proactive person, with great work ethic and good social skills.",
 	  "projects": [
 		{
-		  "name": "Project 1",
-		  "image": "https://via.placeholder.com/150",
-		  "description": "Description…",
-		  "url": "https://project.com"
+		  "name": "WebServ",
+		  "image": "/home/webserv.webp",
+		  "summary": "Creating my own HTTP web server with C++.",
+		  "url": ""
 		},
 		{
-		  "name": "Project 2",
-		  "image": "https://via.placeholder.com/150",
-		  "description": "Description…",
-		  "url": "https://project.com"
+		  "name": "Inception",
+		  "image": "/home/inception.webp",
+		  "summary": "Set up a small-medium infrastructure using Docker and Docker Compose.",
+		  "url": "https://github.com/MGuardia10/42cursus_inception"
 		},
 		{
-		  "name": "Project 3",
-		  "image": "https://via.placeholder.com/150",
-		  "description": "Description…",
-		  "url": "https://project.com"
+		  "name": "minishell",
+		  "image": "home/minishell.webp",
+		  "summary": "Recreating a shell in C using bash as a reference.",
+		  "url": "https://github.com/MGuardia10/42cursus_minishell"
 		},
 		{
-			"name": "Project 4",
-			"image": "https://via.placeholder.com/150",
-			"description": "Description…",
-			"url": "https://project.com"
-		  }
+			"name": "FDF",
+			"image": "/home/fdf.webp",
+			"summary": "Representing a landscape as a 3D object in which all surfaces are outlined in lines.",
+			"url": "https://github.com/MGuardia10/42cursus_fdf"
+		}
 	  ]
 	},
 	"profiles": [
@@ -56,74 +67,82 @@
 	"about": {
 	  "photos": [
 		{
-			"image": "https://via.placeholder.com/150",
-			"caption": "Caption…",
-			"date": "2014-07-31"
+			"image": "/about/littleme.webp",
+			"alt": "young me",
+			"caption": "little-me.jpg",
+			"date": "2003-10-27"
 		},
 		{
-			"image": "https://via.placeholder.com/150",
-			"caption": "Caption…",
-			"date": "2014-07-31"
+			"image": "/about/madrid.webp",
+			"alt": "photo of madrid",
+			"caption": "madrid.jpg",
+			"date": "2014-07-30"
 		},
 		{
-			"image": "https://via.placeholder.com/150",
-			"caption": "Caption…",
-			"date": "2014-07-31"
+			"image": "/about/me.webp",
+			"alt": "me",
+			"caption": "me.jpg",
+			"date": "2023-05-31"
 		},
 		{
-			"image": "https://via.placeholder.com/150",
-			"caption": "Caption…",
-			"date": "2014-07-31"
+			"image": "/about/mac.webp",
+			"alt": "coding on my personal computer",
+			"caption": "coding.jpg",
+			"date": "2024-08-31"
 		}
 	  ],
-	  "bio": "",
-	  "label": "Software Engineer",
-	  "picture": "https://avatars.githubusercontent.com/u/38181470?v=4",
-	  "phone": "",
+	  "bio": [
+		"Hi, I'm Miguel, born in Madrid, Spain. I have been coding since 2022. As a software engineer, I am most passionate about DevOps and Backend development, but I can do Frontend as well.",
+		"I started coding by myself until I got accepted on 42 Madrid - Telefonica, a software engineering school where I've learnt numerous specific technologies and software development fundamentals.",
+		"When I'm not at my desk, I am probably lifting weights, playing football or trying new food restaurants :]"
+	  ],
 	  "work_intro": "",
 	  "work": [
 		{
-		  "position": "",
+		  "area": "",
 		  "company": "",
 		  "logo": "",
 		  "url": "",
-		  "startDate": "",
-		  "endDate": null
+		  "date": "",
+		  "key": "1"
 		}
-	  ]
-	},
-	"education_intro": "I have studied at the following institutions.",
-	"education": [
+	  ],
+	  "education_intro": "I have studied at the following institutions. Btw, Right now I'm focused on learning cloud technologies and DevOps practices in a self-taught way.",
+	  "education": [
+		  {
+				"area": "Software Engineering",
+				"company": "42 Madrid - Telefónica",
+				"logo": "/about/42.webp",
+				"url": "https://www.42madrid.com/",
+				"date": "2023 - 2025",
+				"key": "1"
+			},
+			{
+				"area": "Cloud Architect Bootcamp",
+				"company": "Technological University",
+				"logo": "/about/techtitute.webp",
+				"url": "https://www.techtitute.com/",
+				"date": "2022 - 2023",
+				"key": "2"
+			},
+			{
+				"area": "Master Full Stack Development",
+				"company": "Technological University",
+				"logo": "/about/techtitute.webp",
+				"url": "https://www.techtitute.com/",
+				"date": "2022 - 2023",
+				"key": "3"
+			}
+	  ],
+	  "certificates": [
 		{
-			"area": "Software Engineering",
-			"institution": "42 Madrid - Telefónica",
+			"area": "GCP Associate Cloud Engineer",
+			"company": "Google Cloud",
 			"logo": "",
-			"url": "https://42.fr/en/homepage/",
-			"startDate": "2023",
-			"endDate": "2025"
-		},
-		{
-			"area": "Cloud Architect Bootcamp",
-			"institution": "Techtitute: Technological University",
-			"logo": "",
-			"url": "https://www.techtitute.com/",
-			"startDate": "2022",
-			"endDate": "2023"
-		},
-		{
-			"area": "Master Full Stack Development",
-			"institution": "Techtitute: Technological University",
-			"logo": "",
-			"url": "https://www.techtitute.com/",
-			"startDate": "2022",
-			"endDate": "2023"
-	  }
-	],
-	"certificates": [{
-	  "name": "Certificate",
-	  "date": "2021-11-07",
-	  "issuer": "Company",
-	  "url": "https://certificate.com"
-	}]
+			"date": "2021",
+			"url": "https://certificate.com"
+	  	}
+	]
+	}
   }
   
