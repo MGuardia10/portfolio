@@ -1,6 +1,6 @@
 import { Outlet, ScrollRestoration } from 'react-router-dom'
-import { Navbar } from '../ui/navbar/Navbar'
-import { ThemeProvider } from '../context/themeProvider'
+import { Navbar } from '../ui/navbar/Navbar.jsx'
+import { ThemeProvider } from '../context/ThemeProvider'
 
 export const OutletRouter = () => {
   return (
