@@ -1,6 +1,6 @@
 # My personal Website
 
-My personal portfolio website to showcase my projects and my resume. It's design to be simplistic and clean, while easy-configurable through a json file.
+My personal portfolio website to showcase my projects and resume. It's design to be simplistic and clean, while easy-configurable through a json file.
 
 # Tech Stack
 - [React](https://es.react.dev/) with [Vite](https://vitejs.dev/) (Frontend library)
@@ -20,8 +20,8 @@ My personal portfolio website to showcase my projects and my resume. It's design
 3 - Make sure you have install `Node v20.17.0+` and run this command to start developing process:
 
 	npm run dev
-4 - configure `cv.json` with your info and projects.
+4 - configure `cv.json` with your personal information and projects.
 
-5 - When finish, run the following command and upload `dist` directory in your prefered hosting.
+5 - When finish, run the following command and upload `dist` directory in your preferred hosting.
 
 	npm run build
