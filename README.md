@@ -1,9 +1,27 @@
-# React + Vite
+# My personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website to showcase my projects and my resume. It's design to be simplistic and clean, while easy-configurable through a json file.
 
-Currently, two official plugins are available:
+# Tech Stack
+- [React](https://es.react.dev/) with [Vite](https://vitejs.dev/) (Frontend library)
+- [React Router](https://reactrouter.com/en/main) (to configure website routes)
+- [Tailwind CSS](https://tailwindcss.com/) (Styling)
+- [Radix UI Primitives](https://www.radix-ui.com/primitives) (Headless UI components)
+- [Framer motion](https://www.framer.com/) (Animations)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# portfolio
+# Getting Started
+
+1 - Clone this repository
+	
+	git clone https://github.com/MGuardia10/portfolio.git
+2 - Navigate to the new directory
+	
+	cd portfolio
+3 - Make sure you have install `Node v20.17.0+` and run this command to start developing process:
+
+	npm run dev
+4 - configure `cv.json` with your info and projects.
+
+5 - When finish, run the following command and upload `dist` directory in your prefered hosting.
+
+	npm run build
