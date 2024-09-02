@@ -43,7 +43,7 @@ export const AboutPage = () => {
             alt={photos[2].alt}
             width={220}
             height={260}
-            className="pointer-events-none absolute inset-0 top-64 left-[50%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
+            className="pointer-events-none absolute inset-0 -top-64 left-[50%] w-48 rotate-6 rounded-xl bg-gray-400 object-cover shadow-md"
           />
         </div>
       </div>

@@ -92,8 +92,8 @@
 		}
 	  ],
 	  "bio": [
-		"Hi, I'm Miguel, born in Madrid, Spain. I have been coding since 2022. As a software engineer, I am most passionate about DevOps and Backend development, but I can do Frontend as well.",
-		"I started coding by myself until I got accepted on 42 Madrid - Telefonica, a software engineering school where I've learnt numerous specific technologies and software development fundamentals.",
+		"Hi, I'm Miguel from Madrid, Spain. I have been coding since 2022. As a software engineer, I am most passionate about DevOps and Backend development, but I can do Frontend as well.",
+		"I started coding by myself until I got accepted on 42 Madrid, a software engineering school where I've learnt numerous specific technologies and software development fundamentals.",
 		"When I'm not at my desk, I am probably lifting weights, playing football or trying new food restaurants :]"
 	  ],
 	  "work_intro": "",
@@ -107,7 +107,7 @@
 		  "key": "1"
 		}
 	  ],
-	  "education_intro": "I have studied at the following institutions. Btw, Right now I'm focused on learning cloud technologies and DevOps practices in a self-taught way.",
+	  "education_intro": "Right now I'm focused on learning cloud technologies and DevOps practices in a self-taught way.",
 	  "education": [
 		  {
 				"area": "Software Engineering",
@@ -126,7 +126,7 @@
 				"key": "2"
 			},
 			{
-				"area": "Master Full Stack Development",
+				"area": "Master Full Stack Dev",
 				"company": "Technological University",
 				"logo": "/about/techtitute.webp",
 				"url": "https://www.techtitute.com/",
