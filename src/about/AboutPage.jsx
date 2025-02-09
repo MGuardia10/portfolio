@@ -4,10 +4,11 @@ import cv from "../../cv.json";
 import Section from "./components/Section";
 import Gallery from "./components/Gallery";
 import ShowItems from "./components/ShowItems";
+import ShowCerts from "./components/ShowCerts";
 
 
 export const AboutPage = () => {
-  const { bio, photos, work, education_intro, education } = cv.about
+  const { bio, photos, work_intro, work, education_intro, education, certificates_intro, certificates } = cv.about
   const { profiles } = cv
 
   return (
@@ -97,24 +98,28 @@ export const AboutPage = () => {
             ))}
           </ul>
         </Section>
-        {/*
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8 text-title-light dark:text-title-dark">
             <p>
-              I specialize in Python, data analytics, React, web development,
-              UI/UX, and product design. But I am always learning new things.
-              Here are some of the places I have worked.
+               { work_intro }
             </p>
             <ShowItems items={ work } />
           </div>
         </Section> 
-        */}
         <Section heading="Education" headingAlignment="left">
           <div className="flex w-full flex-col gap-8 text-title-light dark:text-title-dark">
             <p>
-              {education_intro}
+              { education_intro }
             </p>
             <ShowItems items={ education } />
+          </div>
+        </Section>
+        <Section heading="Certifications" headingAlignment="left">
+          <div className="flex w-full flex-col gap-8 text-title-light dark:text-title-dark">
+            <p>
+              {certificates_intro}
+            </p>
+            <ShowCerts items={ certificates } />
           </div>
         </Section>
       </div>

@@ -18,13 +18,13 @@
 	  ],
 	  "image": "/links/mguardia.webp",
 	  "intro": "hey, Miguel here!",
-	  "summary": "I am a software engineer in constant learning and with a solid passion for technology and programming. I consider myself a proactive person, with great work ethic and good social skills.",
+	  "summary": "I'm a software engineer in constant learning and with a solid passion for cybersecurity and programming. I consider myself a proactive person, with great work ethic and good social skills.",
 	  "projects": [
 		{
 		  "name": "WebServ",
 		  "image": "/home/webserv.webp",
-		  "summary": "Creating my own HTTP web server with C++.",
-		  "url": ""
+		  "summary": "Lightweight HTTP server written in C++.",
+		  "url": "https://github.com/MGuardia10/42cursus_webserv"
 		},
 		{
 		  "name": "Inception",
@@ -92,57 +92,81 @@
 		}
 	  ],
 	  "bio": [
-		"Hi, I'm Miguel from Madrid, Spain. I have been coding since 2022. As a software engineer, I am most passionate about DevOps and Backend development, but I can do Frontend as well.",
-		"I started coding by myself until I got accepted on 42 Madrid, a software engineering school where I've learnt numerous specific technologies and software development fundamentals.",
-		"When I'm not at my desk, I am probably lifting weights, playing football or trying new food restaurants :]"
+		"Hi, I'm Miguel from Madrid, Spain. I've been coding since 2022. A year later, I was accepted into 42 School, where I learned a variety of technologies and foundational software development principles.",
+		"Currently, I'm focusing on the cybersecurity field and working to enhance my skills through certifications. I have a particular interest in offensive security.",
+		"When I'm not at my desk, you'll probably find me lifting weights, playing football, or exploring new restaurants 🙂"
 	  ],
-	  "work_intro": "",
+	  "work_intro": "Here are some of the places I have worked.",
 	  "work": [
 		{
-		  "area": "",
-		  "company": "",
-		  "logo": "",
-		  "url": "",
-		  "date": "",
+		  "area": "Cybersecurity Automation Specialist",
+		  "company": "Telefónica Tech",
+		  "logo": "/about/telefonica.webp",
+		  "url": "https://telefonicatech.com/",
+		  "date": "Dec 2024 - Now",
 		  "key": "1"
 		}
 	  ],
-	  "education_intro": "Right now I'm focused on learning cloud technologies and DevOps practices in a self-taught way.",
+	  "education_intro": "Right now I'm focused on completing cybersecurity specialization at 42 Madrid and earning offensive security certifications.",
 	  "education": [
 		  {
-				"area": "Software Engineering",
-				"company": "42 Madrid - Telefónica",
-				"logo": "/about/42.webp",
-				"url": "https://www.42madrid.com/",
-				"date": "2023 - 2025",
-				"key": "1"
+			  "area": "Cybersecurity Specialization",
+			  "company": "42 The Network",
+			  "logo": "/about/42.webp",
+			  "url": "https://www.42network.org/",
+			  "date": "May 2025 - Now",
+			  "key": "1"
 			},
 			{
-				"area": "Cloud Architect Bootcamp",
-				"company": "Technological University",
-				"logo": "/about/techtitute.webp",
-				"url": "https://www.techtitute.com/",
-				"date": "2022 - 2023",
+				"area": "Software Engineering",
+				"company": "42 The Network",
+				"logo": "/about/42.webp",
+				"url": "https://www.42network.org/",
+				"date": "Sept 2023 - May 2025",
+				"key": "2"
+			}
+		],
+		"certificates_intro": "Here are all my current certifications.",
+		"certificates": [
+			{
+				"alt": "GCP - Associate Cloud Engineer (ACE)",
+				"logo": "/about/ACE.webp",
+				"url": "https://www.credly.com/badges/822347e5-1d0a-4854-b11e-25b81832611d/public_url",
 				"key": "2"
 			},
 			{
-				"area": "Master Full Stack Dev",
-				"company": "Technological University",
+				"alt": "Techtitute - Cloud Architect Bootcamp",
 				"logo": "/about/techtitute.webp",
-				"url": "https://www.techtitute.com/",
-				"date": "2022 - 2023",
+				"url": "",
+				"key": "1"
+			}
+		],
+		"cerficatesv2": [
+			{
+				"alt": "OFFSEC - Offensive Security Certified Professional (OSCP)",
+				"logo": "/about/OSCP.webp",
+				"url": "",
+				"key": "6"
+			},
+			{
+				"alt": "Zero Point Security - Certfied Red Team Operator (CRTO)",
+				"logo": "/about/CRTO.webp",
+				"url": "",
+				"key": "5"
+			},
+			{
+				"alt": "INE - Certified Professional Penetration Tester v2 (eCPPT v2)",
+				"logo": "/about/eCPPT.webp",
+				"url": "",
+				"key": "4"
+			},
+			{
+				"alt": "INE - Junior Penetration Tester v2 (eJPT v2)",
+				"logo": "/about/eJPT.webp",
+				"url": "",
 				"key": "3"
 			}
-	  ],
-	  "certificates": [
-		{
-			"area": "GCP Associate Cloud Engineer",
-			"company": "Google Cloud",
-			"logo": "",
-			"date": "2021",
-			"url": "https://certificate.com"
-	  	}
-	]
+		]
 	}
   }
   
