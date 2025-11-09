@@ -10,15 +10,11 @@
       {
         "name": "GitHub",
         "url": "https://github.com/MGuardia10"
-      },
-      {
-        "name": "CV",
-        "url": "/cv.pdf"
       }
     ],
     "image": "/links/mguardia.webp",
     "intro": "hey, Miguel here!",
-    "summary": "Cybersecurity Automation Engineer at Telefónica Tech. I consider myself a proactive person, with a great work ethic and good social skills. I specialize in automation-driven processes, leveraging DevOps best practices and modern cloud environments.",
+    "summary": "Data Platform Engineer at Fever 👾. I consider myself a proactive person, with a great work ethic and good social skills. I specialize in automation-driven processes, leveraging DevOps best practices and modern cloud environments.",
     "projects": [
       {
         "name": "WebServ",
@@ -99,12 +95,20 @@
     "work_intro": "Here are some of the places I have worked.",
     "work": [
       {
+        "area": "Data Platform Engineer",
+        "company": "Fever",
+        "logo": "/about/fever.webp",
+        "url": "https://feverup.com/",
+        "date": "Nov 2025 - Now",
+        "key": "1"
+      },
+      {
         "area": "Cybersecurity Automation Specialist",
         "company": "Telefónica Tech",
         "logo": "/about/telefonica.webp",
         "url": "https://telefonicatech.com/",
-        "date": "Dec 2024 - Now",
-        "key": "1"
+        "date": "Dec 2024 - Nov 2025",
+        "key": "2"
       }
     ],
     "education_intro": "Right now I'm focused on completing cloud specialization at 42 Madrid.",
